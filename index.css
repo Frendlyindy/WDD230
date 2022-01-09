@@ -1,0 +1,25 @@
+header{
+    display: grid;
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+    font-size: x-large;
+}
+img{
+    width: 40%;
+    height: auto;
+    align-content: left;
+}
+
+footer{
+    display: grid;
+    grid-column: auto;
+    grid-row: auto;
+    background-color: blue;
+    color: cornsilk;
+}
+
+h1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
