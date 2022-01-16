@@ -1,0 +1,24 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em;
+    justify-items: center;
+  }
+  @media screen and (min-width: 540px){
+    .main-grid{
+      gid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (min-width: 800px){
+    .main-grid{
+      gid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  header{
+      text-align: center;
+      background-color: navy;
+      color: oldlace;
+  }
+  section{
+      background-color: silver;
+  }
