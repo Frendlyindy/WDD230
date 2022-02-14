@@ -1,8 +1,9 @@
 .main-grid{
-    display: grid;
+  display: flex;
+    /*display: grid;
     grid-template-columns: auto;
     gap: 1em;
-    justify-items: center;
+    justify-items: center;*/
   }
   @media screen and (min-width: 540px){
     .main-grid{
