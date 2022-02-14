@@ -4,17 +4,18 @@
     /* grid-template-columns: auto; */
     gap: 1em;
     justify-items: center;
+    flex-direction: column;
   }
-  @media screen and (min-width: 540px){
+  @media screen and (min-width: 580px){
     .main-grid{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      /*display: grid;
+      grid-template-columns: 1fr 1fr;*/
+      flex-direction: column;
     }
   }
   @media screen and (min-width: 800px){
     .main-grid{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      flex-direction: row;
     }
   }
   header{
