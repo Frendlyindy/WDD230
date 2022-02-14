@@ -1,3 +1,3 @@
 # WDD230
 
-my git extenstion on vscode isnt working
+My repository for WDD230
