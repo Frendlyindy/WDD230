@@ -8,13 +8,13 @@
   @media screen and (min-width: 540px){
     .main-grid{
       display: grid;
-      gid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   }
   @media screen and (min-width: 800px){
     .main-grid{
       display: grid;
-      gid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
   header{
