@@ -1,17 +1,19 @@
 .main-grid{
-  display: flex;
-    /*display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: auto; */
     gap: 1em;
-    justify-items: center;*/
+    justify-items: center;
   }
   @media screen and (min-width: 540px){
     .main-grid{
+      display: grid;
       gid-template-columns: 1fr 1fr;
     }
   }
   @media screen and (min-width: 800px){
     .main-grid{
+      display: grid;
       gid-template-columns: 1fr 1fr 1fr;
     }
   }
