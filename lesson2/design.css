@@ -12,9 +12,6 @@
       grid-template-columns: 1fr 1fr;
       
     }
-    .main-grid img{
-      grid-template-columns: 1fr;
-    }
   }
   @media screen and (min-width: 800px){
     .main-grid{
