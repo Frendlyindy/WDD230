@@ -23,3 +23,14 @@ header{
 body{
   font-family: 'Times New Roman';
 }
+.bruce img{
+  max-width: 640px;
+  max-height: 480px;
+}
+.lex img{
+  max-width: 640px;
+  max-height: 480px;
+}
+.lex h4{
+  font-size: larger;
+}
