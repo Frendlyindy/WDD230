@@ -34,3 +34,17 @@ body{
 .lex h4{
   font-size: larger;
 }
+.primary{
+  color: #3A3634;
+  font-size: large;
+}
+.secondary{
+  color: #C2AE9F;
+font-size: larger;
+}
+.color3{
+  font-size:x-large;
+}
+.color4{
+  font-size:xx-large;
+}
