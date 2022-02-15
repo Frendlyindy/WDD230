@@ -2,7 +2,15 @@ header li{
     float:right;
 }
 header a{
-    display: block;
+  display: block;
   padding: 8px;
   background-color: #dddddd;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header{
+  background-color: darkgray;
 }
