@@ -13,4 +13,13 @@ header ul{
 
 header{
   background-color: darkgray;
+  font-family: 'Times New Roman';
+}
+
+.logo-img img{
+  max-width: 32em;
+  max-height: 10em;
+}
+body{
+  font-family: 'Times New Roman';
 }
