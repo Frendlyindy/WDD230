@@ -1,14 +1,38 @@
-header{
+/* header{
     display: flex;
     flex-direction: column;
     background-color: #3A3634;
     color: #C2AE9F;
+} */
+header {
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    justify-content: space-between;
+    background-color: #3A3634;
+    color: #C2AE9F;
+}
+.logo-area{
+    display: flex;
+}
+
+.header-social {
+    padding-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: end;
+}
+.header-social a img{
+    width: 50px;
+    justify-self: start;
 }
 header h1{
-    align-self: center;
+    /* align-self: center; */
+    font-size: 1.5em;
+
 }
 header img{
-    max-width: 400px;
+    max-width: 115px;
     max-height: auto;
     align-self: center;
 }
@@ -32,14 +56,23 @@ footer{
 }
 .main section{
     background-color: lightgray;
+    width: auto;
+    height: 200px;
+    margin: 10px;
 }
 body{
     background-color: darkgray;
 }
 .spotlight section{
     border: 1px solid black;
+    margin: 12px;
+    width: auto;
+    height: 200px;
 }
 .spotlight{
     gap: 1px;
     flex-direction: column;
+}
+.date{
+    align-self: center;
 }
