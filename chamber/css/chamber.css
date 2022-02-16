@@ -18,10 +18,28 @@ header nav{
 Header nav ul{
     list-style-type: none;
 }
+header a{
+    color: #C2AE9F;
+}
 footer{
     background-color: #3A3634;
     color: #C2AE9F;
 }
 .main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.main section{
+    background-color: lightgray;
+}
+body{
     background-color: darkgray;
+}
+.spotlight section{
+    border: 1px solid black;
+}
+.spotlight{
+    gap: 1px;
+    flex-direction: column;
 }
