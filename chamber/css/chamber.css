@@ -16,10 +16,9 @@ header {
 }
 
 .header-social {
-    padding-top: 6px;
+    /* I have used some code from the example page. I hope that is ok. */
     display: flex;
-    flex-wrap: wrap;
-    gap: 2px;
+    gap: 1px;
     justify-content: end;
 }
 .header-social a img{
