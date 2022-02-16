@@ -1,7 +1,8 @@
 header{
     display: flex;
     flex-direction: column;
-    
+    background-color: #3A3634;
+    color: #C2AE9F;
 }
 header h1{
     align-self: center;
@@ -13,4 +14,14 @@ header img{
 }
 header nav{
     align-self: center;
+}
+Header nav ul{
+    list-style-type: none;
+}
+footer{
+    background-color: #3A3634;
+    color: #C2AE9F;
+}
+.main{
+    background-color: darkgray;
 }
