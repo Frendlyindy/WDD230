@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+header h1{
+    align-self: center;
+}
+header img{
+    max-width: 400px;
+    max-height: auto;
+    align-self: center;
+}
+header nav{
+    align-self: center;
+}
