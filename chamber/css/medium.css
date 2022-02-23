@@ -2,5 +2,7 @@
     .nav-bar{
         justify-self: right;
     }
-    
+    .main{
+        display: flex;
+    }
 }
