@@ -1,4 +1,17 @@
 @media screen and (min-width: 800px) {
-    
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    #hero{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        height: 500px
+    }
+    .spotlight{
+        grid-column: 3/4;
+        grid-row-start: 2;
+    }
     
 }
