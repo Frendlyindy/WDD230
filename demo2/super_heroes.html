@@ -8,17 +8,6 @@
 </head>
 <body>
     <div id="result">
-        <!-- <h1>squadname</h1>
-        <p></p>
-        <section>
-            <h2>membername</h2>
-            <p>age</p>
-            <ul>
-                <li></li>
-            </ul>
-        </section> -->
-
-
     </div>
 
     <script>
@@ -39,6 +28,8 @@
             p3.textContent = `Secret Base: ${data.secretBase}`;
             const p4 = document.createElement('p');
             p4.textContent = `Active: ${(data.active) ? 'Yes': 'No'}`;
+            
+            
 
 
 
@@ -58,10 +49,12 @@
             const h2 = document.createElement('h2');
             const p1 = document.createElement('p');
             const p2 = document.createElement('p');
+            const p3 = document.createElement('p');
             const ul = document.createElement('ul');
             h2.textContent = member.name;
             p1.textContent = `Age: ${member.age}`;
             p2.textContent = `Secret Identity: ${member.secretIdentity}`;
+            p3.textContent = "Super Powers:";
 
             for(let power of member.powers)
             {
@@ -73,6 +66,7 @@
             s.appendChild(h2);
             s.appendChild(p1);
             s.appendChild(p2);
+            s.appendChild(p3);
             s.appendChild(ul);
 
             resultElement.appendChild(s);
