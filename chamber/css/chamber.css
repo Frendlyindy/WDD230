@@ -48,6 +48,9 @@ footer{
     background-color: #3A3634;
     color: #C2AE9F;
 }
+footer a{
+    color:#C2AE9F;
+}
 .main{
     display: flex;
     flex-direction: column;
