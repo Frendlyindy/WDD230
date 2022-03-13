@@ -6,6 +6,8 @@ const url = "https://api.openweathermap.org/data/2.5/weather?id=4887398&appid=7b
         .then(data => {
             console.log(data)
             let currentTemp = data.main.temp;
+            let windSpeed = data.wind.speed;
+           // let windChill = (35.74 + 0.6215currentTemp – 35.75(V^0.16) + 0.4275currentTemp(V^0.16))
             
             document.querySelector('#curr-temp').innerText = currentTemp;
 
@@ -17,5 +19,7 @@ const url = "https://api.openweathermap.org/data/2.5/weather?id=4887398&appid=7b
             let iconId = data.weather[0].icon;
             let iconSource = `http://openweathermap.org/img/wn/${iconId}@2x.png`;
             document.querySelector('#weather-icon').setAttribute('src', iconSource);
+
+            document.querySelector("#speed").innerText = `Wind Speed: ${windSpeed}`;
 
         })
