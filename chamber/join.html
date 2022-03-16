@@ -31,19 +31,29 @@
         <div class="date"></div>
     </header>
     <main class="join-form">
-        <form action="./thankyou.html">
-            <label for="firstName">First Name: </label>
+        <form action="./thankyou.html" id="form-join">
+            <label for="firstName">First Name </label><br>
             <input type="text" name="firstName" id="firstName" required><br>
-            <label for="lastName">Last Name: </label>
+            <label for="lastName">Last Name </label><br>
             <input type="text" name="lastName" id="lastName" required><br>
-            <label for="position">Business Position: </label>
+            <label for="position">Business Position </label><br>
             <input type="text" name="position" id="position"><br>
-            <label for="mail">Email: </label>
+            <label for="mail">Email </label><br>
             <input type="email" name="mail" id="mail" placeholder="example@me.com" required><br>
-            <label for="phone">Phone Number: </label>
-            <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required>
-
-
+            <label for="phone">Phone Number </label><br>
+            <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required><br>
+            <label for="business-name">Business Name </label><br>
+            <input type="text" name="business-name" id="business-name" required><br>
+            <label for="description">Business Description</label><br>
+            <input id="description" type="text" size="50"><br>
+            <label for="tier">Select Membership Level </label><br>
+            <select name="tier" id="tier">
+                <option value="Non-Profit">Non-Profit</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Silver">Siver</option>
+                <option value="Gold">Gold</option>
+            </select><br><br>
+            <button type="submit">Submit</button>
         </form>
     </main>
     <footer>

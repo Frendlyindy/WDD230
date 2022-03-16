@@ -86,3 +86,7 @@ body{
 .join-form{
     display: flex;
 }
+
+.form-join{
+    justify-items: center;
+}
