@@ -83,10 +83,7 @@ body{
     align-self: center;
 }
 
-.join-form{
-    display: flex;
-}
-
-.form-join{
-    justify-items: center;
+#form-join{
+    text-align: center;
+    
 }
