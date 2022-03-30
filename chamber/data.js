@@ -11,8 +11,15 @@ fetch(url)
                 h2.textContent = item.name;
                 const address = document.createElement('p');
                 address.textContent = item.address;
+                const phone = document.createElement('p');
+                phone.textContent = item.number;
+                const web = document.createElement('a');
+                web.textContent = item.website;
+                web.href = item.website;
                 s.appendChild(h2);
                 s.appendChild(address);
+                s.appendChild(phone);
+                s.appendChild(web)
                 resultElement.appendChild(s);
                 
             }
