@@ -61,7 +61,16 @@
             "website" : "www.zippywash.com"
         },
         {
-            
+            "name" : "Martinez Mechanical",
+            "address" : "90426 4th St, Metropolis, NY, 63172",
+            "number" : "212-555-8302",
+            "website" : "www.martinezmechanics.com"
+        },
+        {
+            "name" : "Paunch Burger",
+            "address" : "93930 Wamapoke Rd, IN, 47201",
+            "number" : "930-555-1973",
+            "website" : "www.paunchburger.com"
         }
     ]
 }
