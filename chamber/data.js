@@ -4,8 +4,8 @@ fetch(url)
 .then(data => {
     for(let power of businesses)
             {
-                const li = document.createElement('li');
-                li.textContent = power;
-                ul.appendChild(li);
+                const s = document.createElement('section');
+                s.textContent = power;
+                
             }
 })
