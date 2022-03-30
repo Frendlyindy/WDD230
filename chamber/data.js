@@ -4,10 +4,15 @@ fetch(url)
 .then(response => response.json())
 .then(data => {
     
-    for(let power of businesses)
+    for(let item of data.businesses)
             {
                 const s = document.createElement('section');
-                s.textContent = power;
+                const h2 = document.createElement('h2');
+                h2.textContent = item.name;
+                const address = document.createElement('p');
+                address.textContent = item.address;
+                s.appendChild(h2);
+                s.appendChild(address);
                 resultElement.appendChild(s);
                 
             }
