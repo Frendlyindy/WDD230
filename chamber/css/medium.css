@@ -5,4 +5,19 @@
     .main{
         display: flex;
     }
+    .direct-list section{
+        display: flex;
+    }
+    .direct-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .direct-grid section{
+        background-color: aliceblue;
+        margin: 1em;
+        text-align: center;
+    }
+    #direct-head{
+        text-align: center;
+    }
 }

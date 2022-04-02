@@ -24,3 +24,7 @@ fetch(url)
                 
             }
 })
+function batman(){
+    let element = document.querySelector("#directory");
+    element.classList.toggle("direct-grid");
+}

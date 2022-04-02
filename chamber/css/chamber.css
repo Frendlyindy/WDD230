@@ -87,3 +87,12 @@ body{
     text-align: center;
     
 }
+
+.direct-grid section{
+    background-color: aliceblue;
+    margin: 1em;
+    text-align: center;
+}
+#direct-head{
+    text-align: center;
+}
