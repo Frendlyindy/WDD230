@@ -1,5 +1,6 @@
 const url = "./data.json";
 const resultElement = document.querySelector('div#directory');
+let array = [];
 fetch(url)
 .then(response => response.json())
 .then(data => {
@@ -21,10 +22,20 @@ fetch(url)
                 s.appendChild(phone);
                 s.appendChild(web)
                 resultElement.appendChild(s);
+                if(item.level == "Silver"||item.level == "Gold"){
+                    let name = item.name;
+                    let add = item.address;
+                    let num = item.number;
+                    let website = item.website;
+                    let business = [name, add, num, website];
+                    array.push(business);
+                }
                 
             }
+    
 })
 function batman(){
     let element = document.querySelector("#directory");
     element.classList.toggle("direct-grid");
 }
+array.sort(() => Math.random() - Math.random()).slice(0, n);
