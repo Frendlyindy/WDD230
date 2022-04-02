@@ -13,6 +13,9 @@
         grid-column: 3/4;
         grid-row-start: 2;
     }
+    .direct-list section{
+        display: flex;
+    }
     .direct-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
