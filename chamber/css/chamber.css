@@ -140,7 +140,8 @@ body{
 }
 
 .direct-grid section{
-    background-color: aliceblue;
+    background-color: black;
+    color: gray;
     margin: 1em;
     text-align: center;
 }
