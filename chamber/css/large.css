@@ -28,5 +28,12 @@
     #direct-head{
         text-align: center;
     }
+    #discover-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gotham-pics{
+        grid-column-start: 3;
+    }
     
 }

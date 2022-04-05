@@ -148,3 +148,10 @@ body{
 #direct-head{
     text-align: center;
 }
+#discover-main{
+    display: block;
+}
+#gotham-pics section img{
+    max-width: 32em;
+    max-height: 35em;
+}
