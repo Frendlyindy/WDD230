@@ -78,6 +78,9 @@ header h1{
     font-size: 1.5em;
 
 }
+.date{
+    text-align: right;
+}
 header img{
     max-width: 115px;
     max-height: auto;
