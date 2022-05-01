@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color: #17a8e4;
+    background-color: skyblue;
     padding: 1rem 2%;
 }
 
@@ -52,7 +52,7 @@ main{
     
 }
 main h1{
-   color: #17a8e4;
+   color: skyblue;
 
 }
 main figure img{
@@ -65,4 +65,9 @@ main figure{
 main figcaption{
     text-align: center;
     font-size: .8rem;
+}
+footer{
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: skyblue;
 }
