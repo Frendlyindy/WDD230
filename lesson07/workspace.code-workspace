@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": ".."
+			"name": "water_cycle",
+			"path": "../../../Downloads/water_cycle"
 		},
 		{
-			"path": "../../../Downloads/water_cycle"
+			"name": "WDD230",
+			"path": ".."
 		}
 	],
 	"settings": {
