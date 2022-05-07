@@ -15,7 +15,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #999;
     display: grid;
     grid-template-columns: 75px auto;
 }
@@ -60,7 +60,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #999;
     padding: .5rem 2%;
     text-align: center;
 }
