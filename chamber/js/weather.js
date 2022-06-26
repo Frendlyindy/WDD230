@@ -22,4 +22,4 @@ const url = "https://api.openweathermap.org/data/2.5/weather?id=4887398&appid=7b
 
             document.querySelector("#speed").innerText = `Wind Speed: ${windSpeed}`;
 
-        })
+        });
