@@ -1,9 +1,12 @@
 const url = "./data.json";
 const resultElement = document.querySelector('div#directory');
 let array = [];
+const spotOne = document.querySelector('.spot1');
+const spotTwo = document.querySelector('.spot2');
 fetch(url)
 .then(response => response.json())
 .then(data => {
+
     
     for(let item of data.businesses)
             {
@@ -38,4 +41,4 @@ function batman(){
     let element = document.querySelector("#directory");
     element.classList.toggle("direct-grid");
 }
-array.sort(() => Math.random() - Math.random()).slice(0, n);
+array.sort(() => Math.random() - Math.random()).slice(0, 11);
