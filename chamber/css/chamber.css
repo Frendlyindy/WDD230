@@ -157,4 +157,11 @@ body{
 #gotham-pics section img{
     max-width: 32em;
     max-height: 35em;
+    text-align: left;
+}
+
+#hero img{
+    max-width: 30em;
+    max-height: 30em;
+    
 }
