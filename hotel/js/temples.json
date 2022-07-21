@@ -1,0 +1,28 @@
+{
+    "temples":[
+        {"name":"Newport Beach California Temple",
+         "location":"Newport Beach, California, United States",
+          "dedicated":"28 August 2005",
+            "address":"2300 Bonita Canyon Dr, Newport Beach, CA, 92660-9118, United States",
+            "number":"1-949-644-1820",
+            "email":"newportbeachtemple@churchofjesuschrist.org"},
+        {"name":"Los Angeles California Temple",
+         "location":"Los Angeles, California, United States",
+          "dedicated":"11 March 1956",
+            "address":"10777 Santa Monica Blvd, Los Angeles, CA, 90025-4718",
+            "number":"1-310-474-5569",
+            "email":"losangelestemple@churchofjesuschrist.org"},
+        {"name":"Redlands California Temple",
+        "location":"Redlands, California, United States",
+        "dedicated":"14 September 2003",
+        "address":"1761 Fifth Ave, Redlands, CA, 92374-5503, United States",
+        "number":"1-909-389-7369",
+        "email":"redlandstemple@churchofjesuschrist.org"},
+        {"name":"San Diego California Temple",
+        "location":"San Diego, California, United States",
+         "dedicated":"25 April 1993",
+        "address":"7474 Charmant Dr, San Diego, CA, 92122-5000, United States",
+        "number":"1-858-622-0991",
+        "email":"sandiegotemple@churchofjesuschrist.org"}
+    ]
+}

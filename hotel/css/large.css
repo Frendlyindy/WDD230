@@ -1,0 +1,6 @@
+@media only screen and (min-width: 1024){
+    .home-grid{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
+    }
+}

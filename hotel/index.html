@@ -13,12 +13,40 @@
 <body>
     <header>
         <h1>Temple Inn and Suites</h1>
+        <nav class="navbar">
+                <ul>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./reservations.html">Reservations</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./temple.html">Temple</a></li>
+                </ul>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/"><img src="../chamber/images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com"><img src="../chamber/images/twitter.png" alt="twitter"></a>
+                </div>
+            </nav>
     </header>
-    <main>
-
+    <main class="home-grid">
+        <h2>Grettings!</h2>
+        <p>This is Temple Inn and Suites. Our goal is to make your temple trip completely focused on the temple, without the travel worries.
+            We offer several amenities and services to help you get the most out of your trip. We look forward to having you stay with us!
+            <a href="./reservations.html">Book a trip today!</a>
+        </p>
+        <section id="weather">
+            Redlands Weather
+            <p> <span id="curr-temp"></span>&deg;F</p>
+            <span id="cond"></span></p>
+            <img src=""id="weather-icon"></p>
+            <span id="speed"></span>
+        </section>
+        <div id="temple-info"></div>
     </main>
     <footer>
-
+        <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0955318,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+            4800 Montgomery Ln #300, Bethesda, MD 20814
+        </a>
     </footer>
 </body>
+<script src="../weather/js/weather.js"></script>
+<script src="./js/hotel.js"></script>
 </html>
